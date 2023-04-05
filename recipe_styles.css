@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(rgb(225, 212, 97), rgb(255, 255, 255));
+}
+
+h1 {
+    font-family: 'Alkatra', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h3 {
+    text-decoration: double underline;
+}
+
+img {
+    height: 22rem;
+    width: 40rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    display: block;
+    margin: auto;
+}
+
+.content {
+    margin: 5rem;
+}
+
+.content p, li {
+    line-height: 1.9rem;
+}
+
+.content > p::first-letter {
+    font-size: 2rem;
+    color: rgb(220, 115, 16);
+}
+

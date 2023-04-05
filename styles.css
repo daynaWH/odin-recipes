@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100vw;
+    background-image: linear-gradient(rgb(122, 130, 176),rgb(240, 230, 230));
+    background-repeat: no-repeat;
+    background-size: 100vw 45%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem auto;
+    font-family: 'Alkatra', cursive;
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.hero img {
+    width: 40rem;
+    height: 20rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+h4 {
+    text-align: center;
+    margin: 2rem 0;
+    text-decoration: double underline;
+}
+
+.recipes-list {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipes-list img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color:rgb(104, 113, 162);
+}
+
