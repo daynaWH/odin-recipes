@@ -1,4 +1,4 @@
 # odin-recipes
-A simple project for The Odin Project made with HTML and CSS.
+A project for The Odin Project made with HTML and CSS.
 
-Please note that the webpages are not responsive.
+It is a simple website consisting of multiple pages.
